@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Авторизация</title>
+    <link href="Main.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Добро пожаловать</h1>
+    </header>
+
+    <div class="autor">
+        <fieldset>
+            <p>Роль:</p>
+            <label>
+                <input type="radio" name="role" value="engineer" id="engineer">
+                Инженер
+            </label>
+            <label>
+                <input type="radio" name="role" value="observer" id="observer">
+                Заказчик / Руководитель
+            </label>
+            <label>
+                <input type="radio" name="role" value="manager" id="manager">
+                Менеджер
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>ФИО:</p>
+            <label>
+                <p>Фамилия:<input type="text" name="Surname" value="Ваша Фамилия" size="40" required></p>
+            </label>
+            <label>
+                <p>Имя:<input type="text" name="Name" value="Ваше Имя" size="40" required></p>
+            </label>
+            <label>
+                <p>Отчество:<input type="text" name="SecName" value="Ваше Отчество" size="40"></p>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>Пароль:</p>
+            <label>
+                <input type="password" name="passwoed" id="pass" required>
+            </label>
+        </fieldset>
+        <div>
+            <input type="submit" value="Авторизоваться">
+        </div>
+    </div>
 </body>
 </html>

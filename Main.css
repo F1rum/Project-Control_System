@@ -1,0 +1,8 @@
+p,h1,label {
+  list-style-type: none;
+}
+.autor {
+    display: grid;
+    margin-top: 100px;
+    margin-left: 30%;
+}
